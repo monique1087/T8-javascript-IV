@@ -26,56 +26,15 @@ let resultados = [
     }
 ];
 
-<<<<<<< HEAD
-class Navbar {
-    render() {
-        const nav =  ` <img class="navbar__logo" src="./imgs/logo.png" alt="Logo" />
-        <div class="group__input">
-            <input class="input__search" onKeyUp="limpar(this.value)" type="search" placeholder="Search" aria-label="Search">
-            <button class="button__search" onclick="search()"> Search </button>
-        </div>`
-        document.querySelector('.navbar').innerHTML = nav
-    }
-}
-
-const navbar = new Navbar 
-navbar.render()
-
-resultados.map((receita, index) => {
-    document.querySelector('.cards').insertAdjacentHTML('beforeend', new Card(receita).render())
-})
-
-const search = (value) => {
-   let encontrados = resultados.filter(receita => {
-        return receita.titulo.includes(value)
-        
-    })
-const search = (value) =>
-    let encontradosDois = resultados.filter(receita => {
-        return receita.ingredientes.includes(value)
-        
-    })
-    const limpar = (value) => {
-        if(!value) {
-            document.querySelector('.cards').innerHTML = resultados.map(receita => {
-                return new Card(receita).render()
-            })
-        }
-
-    }
-    
-}
-
-
-=======
 
 const renderNavbar = new Navbar
 
 renderNavbar.render()
 
+document.querySelector('.cards').innerHTML = 
 resultados.map(receita => {
-    new Card(receita).render()
-})
+    return new Card(receita).render()
+}).join("")
 
 document.querySelector('.button__search').addEventListener('click', function(){
     let inputValue = document.querySelector('.input__search').value.toUpperCase()
@@ -84,9 +43,9 @@ document.querySelector('.button__search').addEventListener('click', function(){
         return receita.titulo.toUpperCase().includes(inputValue) || receita.ingredientes.toUpperCase().includes(inputValue)
     })
 
-    document.querySelector('.cards').innerHTML = ""
+    document.querySelector('.cards').innerHTML = 
     achados.map(encontrado => {
-        new Card(encontrado).render()
-    })
+        return new Card(encontrado).render()
+    }).join("")
 })
->>>>>>> upstream/aula2
+
