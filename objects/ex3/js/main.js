@@ -26,7 +26,6 @@ let resultados = [
     }
 ];
 
-<<<<<<< HEAD
 class Navbar {
     render() {
         const nav =  ` <img class="navbar__logo" src="./imgs/logo.png" alt="Logo" />
@@ -50,11 +49,13 @@ const search = (value) => {
         return receita.titulo.includes(value)
         
     })
-const search = (value) =>
+const search = (value) => {
     let encontradosDois = resultados.filter(receita => {
         return receita.ingredientes.includes(value)
         
     })
+}
+    
     const limpar = (value) => {
         if(!value) {
             document.querySelector('.cards').innerHTML = resultados.map(receita => {
@@ -67,7 +68,6 @@ const search = (value) =>
 }
 
 
-=======
 
 const renderNavbar = new Navbar
 
@@ -89,4 +89,3 @@ document.querySelector('.button__search').addEventListener('click', function(){
         new Card(encontrado).render()
     })
 })
->>>>>>> upstream/aula2
