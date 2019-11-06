@@ -5,7 +5,7 @@ Turma 8 | Front-end | 2019 | Semana 13 | Javascript IV
 
 ---
 
-### [Aula 1](#aula-1)
+### [Aula 1](#conteudo-aula-1)
 #### Resumo
 Nessa aula vimos:
 * [Git-flow](#git-flow)
@@ -13,13 +13,13 @@ Nessa aula vimos:
 * [Exercícios](#exercicios)
 * [Conteúdo para estudo](#conteúdo-para-estudo)
 
-### [Aula 2](#aula-2)
+### [Aula 2](#conteudo-aula-2)
 #### Resumo
 Nessa aula vimos:
 * [Object](#object)
 * [Exercícios 2](#exercicios-2)
 
-## Aula 1
+## Conteudo Aula 1
 #### Git flow
 É um dos modelos existentes para organizar branches.
 Tendo como principio: 
@@ -116,7 +116,7 @@ E ao final fizemos o processo de Pull Request pelo github
 - [Git flow - gitlab](https://docs.gitlab.com/ee/workflow/gitlab_flow.html)
 - [Git flow - bitbucket](https://br.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
-## Aula 2
+## Conteudo  Aula 2
 #### Object
 Nessa aula tivemos:
  - [Revisão](#revisão)
