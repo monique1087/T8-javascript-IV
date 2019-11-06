@@ -116,7 +116,7 @@ E ao final fizemos o processo de Pull Request pelo github
 - [Git flow - gitlab](https://docs.gitlab.com/ee/workflow/gitlab_flow.html)
 - [Git flow - bitbucket](https://br.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
-## Conteudo  Aula 2
+## Conteudo Aula 2
 #### Object
 Nessa aula tivemos:
  - [Revisão](#revisão)
